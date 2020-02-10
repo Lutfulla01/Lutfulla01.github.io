@@ -1,0 +1,117 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'fonts.css';
+
+:root {
+    --m-l: 'montserrat-light';
+    --r-b: 'raleway-bold';
+    --r-e-b: 'raleway-extrabold';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+
+header .navbar-light .navbar-nav .nav-link {
+    color: #191919;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+    color: #007d2f;
+    transition: 0.5s;
+}
+
+.header-text p {
+    font-size: 20px;
+}
+
+.header-text h1 {
+    font-size: 38px;
+}
+
+.header-text {
+    padding: 100px 0;
+    background: #323232;
+    color: white;
+}
+
+main {
+    background: #007d2f;
+    padding: 50px 0;
+    color: white;
+    font-size: 14px;
+}
+
+main p {
+    margin-top: 15px;
+}
+
+.sec-text {
+    padding: 100px;
+    display: inline;
+}
+/* section */
+section {
+    padding: 0.1px;
+}
+
+.project button {
+    padding: 23px 42px;
+    background: #007d2f;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+.project {
+    padding: 100px 0;
+    background: whitesmoke;
+}
+
+.skills-col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.skills-col  .image {
+    width: 100%;
+
+}
+
+.skills-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.skills-text {
+    padding: 100px;
+}
+/* footer */
+footer a {
+    color: #bcbcbc;
+}
+
+footer {
+    background: #141414;
+    padding: 100px 0;
+    color: white;
+}
+/* media */
+@media(max-width:1042px){
+    .skills-text {
+        padding: 55px 25px 0 25px;
+    }
+}
+@media(max-width:857px){
+    .skills-text {
+        padding: 20px 40px 0 40px;
+    }
+}

@@ -1,0 +1,110 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'fonts.css';
+
+:root {
+    --m-l: 'montserrat-light';
+    --r-b: 'raleway-bold';
+    --r-e-b: 'raleway-extrabold';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+header {
+    position: relative;
+}
+.menu-top {
+    background: white;
+}
+.navbar .navbar-expand-lg .navbar-light {
+    position: absolute;
+}
+.menu-top ul li a {
+    color: #191919;
+    transition: 0.5s;
+}
+.menu-top ul li a:hover {
+    color: #007d2f;
+    transition: 0.5s;
+    
+}
+.menu-bot p {
+    color: white;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.menu-bot h1 {
+    color: #191919;
+    font-size: 30px;
+}
+.menu-bot {
+    background: #007d2f;
+    padding: 100px 0;
+}
+
+/* section */
+
+section img {
+    width: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+    
+}
+.image {
+    position: relative;
+    background: #31774b;
+    transition: 0.5s;
+}
+.icon {
+    position: absolute;
+    top: 45%;
+    opacity: 0;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+
+
+.image:hover .icon {
+    font-size: 40px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.icon i {
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+
+ section .image:hover img {
+    opacity: 0.3;
+    display: block;
+    transition: 0.5s;
+}
+section .sec-row {
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+section .sec-col {
+   margin-right: 0;
+   margin-left: 0;
+}
+
+/* footer */
+footer a {
+    color: #bcbcbc;
+}
+
+footer {
+    background: #141414;
+    padding: 100px 0;
+    color: white;
+}

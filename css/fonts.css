@@ -1,0 +1,24 @@
+@font-face{
+    font-family:'montserrat-light' ;
+    src: url(../fonts/montserrat-light_[allfont.ru].ttf);
+}
+@font-face{
+    font-family:'raleway-bold' ;
+    src: url(../fonts/raleway-bold_[allfont.ru].ttf);
+}
+@font-face{
+    font-family:'raleway-extrabold' ;
+    src: url(../fonts/raleway-extrabold_[allfont.ru].ttf);
+}
+@font-face{
+    font-family:'raleway-medium' ;
+    src: url(../fonts/raleway-medium_[allfont.ru].ttf);
+}
+@font-face{
+    font-family:'raleway-regular' ;
+    src: url(../fonts/raleway-regular_[allfont.ru].ttf);
+}
+@font-face{
+    font-family:'raleway-semibold' ;
+    src: url(../fonts/raleway-semibold_[allfont.ru].ttf);
+}
